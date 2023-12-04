@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        style.css{
+        padding: 0;
+        margin: o;
+
+        }
+        .wrapper{
+            
+            background:ca6.jpg;
+            height: 100vh;
+
+        }
+        .navbar{
+            height: 80px;
+            width: 100%;
+            background: rgba(0,0,0,0.4);
+        }
+        .logo{
+            width: 140px;
+            height: auto;
+            padding: 20px 100px;
+
+        }
+        .navbar ul{
+            float: right;
+            margin-right: 20px;
+        }
+        .navbar ul li{
+            list-style: none;
+            margin: 0 8px;
+            display: inline-block;
+            line-height: 8px;
+
+        }
+        .navbar ul li a{
+            color: white;
+            font-size: 20px;
+            padding: 6px 13px;
+            font-family: 'Roboto', sans-serif;
+            transition: 2s;
+        }
+        .navbar ul li a.active,
+        .navbar ul li a:hover{
+            background: red;
+            border-radius: 2px;
+        }
+        .wrapper .center{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: sans-serif;
+            user-select: none;
+        }
+        .center h1{
+            color: white;
+            font-size: 70px;
+            font-weight: bold;
+            width: 900px;
+            text-align: center;
+        }
+        .center h2{
+            color: white;
+            font-size: 70px;
+            font-weight: bold;
+            width: 885px;
+            margin-top: 100px;
+            text-align: center;
+        }
+        .center .buttons{
+            margin: 35px 280px;
+            
+        }
+        .buttons button{
+            height: 50px;
+            width: 150px;
+            font-size: 18px;
+            font-weight: bold;
+            color: green;
+            background: white;
+            border: 1px solid black;
+            outline: none;
+            cursor: pointer;
+            border-radius: 25px;
+            transition: 5s;
+        }
+        .buttons .btn{
+            margin-left: 25px;
+        }
+        .buttons button:hover{
+            background: #cc0000;
+            transition: 2s;
+        }
+        #per{
+            background: red;
+            text-align: center;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first website</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body style="background-repeat: no-repeat; background-size: 100%; height:auto; width:100%;" background="eagle.avif">
+    <div class="wrapper">
+        <nav class="navbar">
+            <img class="logo" src="animal.png">
+            <ul>
+                <li><a class="active" href="#">HOME</a></li>
+                <li><a class="links" href="form.html">LOGIN</a></li>
+                <li><a class="links" href="contact.html">CONTACT</a></li>
+                <li><a class="links" href="feed back.html">FEEDBACK</a></li>
+                <li><a class="links" href="about.html">ABOUT</a></li>
+
+            </ul>
+
+        </nav> 
+        <div class="center">
+            <h1>WELLCOME TO THE PET CLINIC</h1>
+            <h2>HOW CAN A HELP YOU?</h2>
+            <div class="buttons">
+                <button>EXPLORE MORE</button>
+                <button class="btn">SUBSCRIBE US</button>
+            </div>
+
+        </div>
+
+    </div>
+    <p id="per">this is me hafeez</p>
+</body>
+</html>
